@@ -102,6 +102,9 @@ tr:nth-child(even) td { background: #f2f7fb; }
 }
 .btn-submit:hover { background: #16406b; }
 
+/* Payment QR */
+.qr-code { max-width: 280px; margin: 12px auto; border-radius: 10px; }
+
 /* Booking box */
 .book { background: #0e2a47; color: #fff; border-radius: 12px; padding: 22px 20px; text-align: center; }
 .book h2 { color: #fff; border: none; margin-bottom: 6px; padding: 0; }
