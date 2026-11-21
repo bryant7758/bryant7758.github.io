@@ -73,9 +73,59 @@
     </div>
   </section>
 
+  <section class="section">
+    <h2>预订拼车</h2>
+    <p>填好下面这张表提交，我们会跟你确认。付款支持 PayPal、Zelle，确认后发你付款方式。</p>
+    <form action="https://formsubmit.co/bryant7758@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="拼车预订 - ilgbus.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://ilgbus.com/thanks.html">
+      <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="姓名" required>
+      </div>
+      <div class="form-group">
+        <label for="contact">联系电话或微信</label>
+        <input type="text" id="contact" name="联系方式" required>
+      </div>
+      <div class="form-group">
+        <label for="date">出发日期</label>
+        <input type="date" id="date" name="出发日期" required>
+      </div>
+      <div class="form-group">
+        <label for="mountain">去哪个雪场</label>
+        <select id="mountain" name="雪场" required>
+          <option value="">请选择</option>
+          <option value="Belleayre $90/人">Belleayre — $90/人</option>
+          <option value="Hunter $110/人">Hunter — $110/人</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="people">人数</label>
+        <input type="number" id="people" name="人数" min="1" max="12" required>
+      </div>
+      <div class="form-group">
+        <label for="pickup">接人点</label>
+        <select id="pickup" name="接人点" required>
+          <option value="">请选择</option>
+          <option value="曼哈顿">曼哈顿</option>
+          <option value="Jersey City">Jersey City</option>
+          <option value="法拉盛">法拉盛</option>
+          <option value="长岛 39 号出口">长岛 39 号出口</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="notes">备注（可选）</label>
+        <textarea id="notes" name="备注" rows="3" placeholder="比如：带雪具、想约教练课、住宿需求"></textarea>
+      </div>
+      <button type="submit" class="btn-submit">提交预订</button>
+    </form>
+    <p class="note">提交后我们会尽快跟你确认时间和接人细节。</p>
+  </section>
+
   <section class="book">
     <h2>预订拼车</h2>
-    <p>私信预订，告诉我们日期、人数、去哪个雪场、在哪接。</p>
+    <p>也可以直接私信预订，告诉我们日期、人数、去哪个雪场、在哪接。</p>
     <div class="social">
       <a href="https://www.rednote.com/user/profile/646bd67c00000000100246e9" target="_blank" rel="noopener">小红书</a>
       <a href="https://www.instagram.com/bryantlin77588/" target="_blank" rel="noopener">Instagram</a>
