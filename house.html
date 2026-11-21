@@ -32,9 +32,9 @@
     <h2>房子介绍</h2>
     <p>房子在 Belleayre 与 Hunter 中间，住下两边雪场都方便。共三间房，厨房、客厅共用，适合一家子或者几个朋友一起上来滑两天。</p>
     <ul>
-      <li><strong>套间：</strong>queen 床 + 上下铺（下 full、上 single），独立卫生间，最多住 5 人。</li>
-      <li><strong>大房：</strong>king 床 + 上下铺（上下都是 single），最多住 4 人。</li>
-      <li><strong>小房：</strong>full 床 + single 床，最多住 3 人。</li>
+      <li><strong>A 套间：</strong>queen 床 + 上下铺（下 full、上 single），独立卫生间，最多住 5 人。</li>
+      <li><strong>B 大房：</strong>king 床 + 上下铺（上下都是 single），最多住 4 人。</li>
+      <li><strong>C 小房：</strong>full 床 + single 床，最多住 3 人。</li>
       <li>大房和小房共用一个大卫生间；整房最多住 12 人。</li>
     </ul>
   </section>
@@ -73,9 +73,9 @@
     <h2>房价</h2>
     <table>
       <tr><th>房间</th><th>平日</th><th>周末</th><th>节假日</th></tr>
-      <tr><td>套间</td><td>$130</td><td>$180</td><td>$220</td></tr>
-      <tr><td>大房</td><td>$100</td><td>$140</td><td>$180</td></tr>
-      <tr><td>小房</td><td>$70</td><td>$100</td><td>$130</td></tr>
+      <tr><td>A 套间</td><td>$130</td><td>$180</td><td>$220</td></tr>
+      <tr><td>B 大房</td><td>$100</td><td>$140</td><td>$180</td></tr>
+      <tr><td>C 小房</td><td>$70</td><td>$100</td><td>$130</td></tr>
       <tr><td>整房（三间全包）</td><td>$280</td><td>$400</td><td>$500</td></tr>
     </table>
     <ul>
@@ -97,9 +97,55 @@
     </ul>
   </section>
 
+  <section class="section">
+    <h2>预订民宿</h2>
+    <p>填好下面这张表提交，我们会跟你确认房间和总价。</p>
+    <form action="https://formsubmit.co/bryant7758@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="民宿预订 - ilgbus.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://ilgbus.com/thanks.html">
+      <div class="form-group">
+        <label for="h-name">姓名</label>
+        <input type="text" id="h-name" name="姓名" required>
+      </div>
+      <div class="form-group">
+        <label for="h-contact">联系电话或微信</label>
+        <input type="text" id="h-contact" name="联系方式" required>
+      </div>
+      <div class="form-group">
+        <label for="h-room">房间</label>
+        <select id="h-room" name="房间" required>
+          <option value="">请选择</option>
+          <option value="A 套间">A 套间</option>
+          <option value="B 大房">B 大房</option>
+          <option value="C 小房">C 小房</option>
+          <option value="整房（三间全包）">整房（三间全包）</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="h-people">人数</label>
+        <input type="number" id="h-people" name="人数" min="1" max="12" required>
+      </div>
+      <div class="form-group">
+        <label for="h-checkin">入住日期</label>
+        <input type="date" id="h-checkin" name="入住日期" required>
+      </div>
+      <div class="form-group">
+        <label for="h-checkout">退房日期</label>
+        <input type="date" id="h-checkout" name="退房日期" required>
+      </div>
+      <div class="form-group">
+        <label for="h-notes">备注（可选）</label>
+        <textarea id="h-notes" name="备注" rows="3" placeholder="比如：要不要拼车、约教练课、几点到"></textarea>
+      </div>
+      <button type="submit" class="btn-submit">提交预订</button>
+    </form>
+    <p class="note">提交后我们会尽快跟你确认房间和总价。</p>
+  </section>
+
   <section class="book">
     <h2>预订民宿</h2>
-    <p>私信预订，告诉我们日期、房间、人数。</p>
+    <p>也可以直接私信预订，告诉我们日期、房间、人数。</p>
     <div class="social">
       <a href="https://www.rednote.com/user/profile/646bd67c00000000100246e9" target="_blank" rel="noopener">小红书</a>
       <a href="https://www.instagram.com/bryantlin77588/" target="_blank" rel="noopener">Instagram</a>
