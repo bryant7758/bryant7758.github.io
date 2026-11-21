@@ -25,6 +25,7 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a:hover { background: rgba(255,255,255,.12); text-decoration: none; }
 .nav-links a.active { background: rgba(255,255,255,.18); color: #fff; font-weight: 600; }
+.nav-links a.lang { margin-left: auto; }
 
 /* Hero */
 .hero { position: relative; color: #fff; text-align: center; }
