@@ -82,6 +82,11 @@ tr:nth-child(even) td { background: #f2f7fb; }
 .photo-single img { width: 100%; border-radius: 10px; }
 .photo-single figcaption { text-align: center; font-size: 14px; color: #5b7186; margin-top: 6px; }
 
+/* Smaller photo inside a single guide entry */
+.photo-entry { margin: 12px 0; max-width: 520px; }
+.photo-entry img { width: 100%; border-radius: 10px; }
+.photo-entry figcaption { text-align: center; font-size: 14px; color: #5b7186; margin-top: 6px; }
+
 /* Booking form */
 .form-group { margin: 14px 0; }
 .form-group label { display: block; font-weight: 600; margin-bottom: 5px; font-size: 15px; }
